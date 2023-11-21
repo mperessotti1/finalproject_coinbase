@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclases</title>
+    <!-- w3schools.com - pseudoclases-->
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .hover{
+            width: 300px;
+            height: 100px;
+            background-color: bisque;
+        }
+
+        .hover:hover { /*se activa en cuanto el mouse pasa por encima*/
+            background-color: burlywood;
+        }
+
+        .listado {
+            padding: 15px;
+            background-color: aquamarine;
+        }
+
+        .listado p:first-child{
+            color: white;
+        }
+
+        a:link{ /* link no visitado*/
+            color: deeppink;
+        }
+        a:visited{
+            color: crimson;
+        }
+        a:hover{
+            color: pink;
+        }
+        a:active{
+            color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="hover">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Maxime placeat praesentium magnam! Repudiandae, 
+            doloribus quibusdam vitae eos fugit eligendi consequatur.</p>
+    </div>
+    <div class="listado">
+        <p>Parrafo 1</p>
+        <p>Parrafo 2</p>
+        <p>Parrafo 3</p>
+    </div>
+    <div class="enlaces">
+        <a href="http://google.com" target="_blank">Enlace a google</a>
+    </div>
+</body>
+</html>

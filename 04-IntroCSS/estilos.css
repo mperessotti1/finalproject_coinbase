@@ -1,0 +1,33 @@
+h1 {
+    color: red;
+}
+
+p{
+    color: blue;
+    font-size: 16pt;
+}
+
+/* Selectores de ID = empieza con # */
+#primeranoticia {
+    color: green;
+    font-size: 12pt;
+}
+
+#segundanoticia {
+    color: darkmagenta;
+}
+
+/*Selectores de Clase = empieza con . */
+.encabezado{
+    font-size: 24pt;
+    text-transform: uppercase;
+}
+
+/*Selector universal = con * */
+*.warning{
+    color: red;
+}
+
+.autor, .fecha, .ubicacion{
+    text-decoration: underline;
+}

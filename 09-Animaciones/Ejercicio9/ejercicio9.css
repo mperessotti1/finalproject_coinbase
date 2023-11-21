@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.btn-modern {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-modern:hover {
+    background-color: red;
+    color: black;
+    box-shadow: 0 0 50px black;
+    cursor: pointer;
+    animation: traslacion forwards;
+    transition: 0.4s;
+}
+
+@keyframes traslacion {
+    0% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(-5px);
+    }
+}
